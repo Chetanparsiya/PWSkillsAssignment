@@ -1,0 +1,40 @@
+1) What are Primitive Data types in Java?
+Ans : A primitive data type specifies the type of a variable and the kind of values it can hold.There are eight primitive data types in Java:
+		byte	Stores whole numbers from -128 to 127
+		short	Stores whole numbers from -32,768 to 32,767
+		int		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+		long	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+		float	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+		double	Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits
+		boolean	Stores true or false values
+		char	Stores a single character/letter or ASCII values
+2) What are the Identifiers in Java?
+Ans :An identifier in Java is the unique name given to Variables, Classes, Methods, Packages, Interfaces, etc which is used to uniquely identified. There are certain rules to create a identifier.Identifiers should not consists of special symbol expcet $ and _. 
+	 No Reserved words should be used as identifier and it is case sensitive.
+
+3) What is final class in Java?
+Ans : Final Classes in java are the classes which cannot be extended, ie no subclasses can be created from the class and hence no inheritance can be supported.
+
+4) What are the two ways to make a class final?
+Ans:  One Way to make A final class is declared using the final keyword. and the second way is to make the constructor as private so that it cannot be inherited further.
+
+5) Can we create an instance of final class in another class?
+Ans:  Yes We can create an instance of final class in another class. The only thing is it cannot be inherited or extended.
+
+6) What is Volatile keyword used for ?
+Ans : The volatile keyword is used to indicate that a variable's value may be modified by multiple threads at the same time.
+
+7) What is the use of Transient Keyword ?
+Ans: The transient keyword is used when we do not want the variable to be serialized, i.e., we do not want the value of that variable to be stored in a file.
+
+8) What are the types of casting.?
+Ans:There are two types of Type Casting in java:
+	a) Widening Type Casting :A lower data type is transformed into a higher one by a process known as widening type casting. Implicit type casting and casting down are some names for it. It occurs naturally. Since there is no chance of data loss, it is secure.
+	b) Narrow Type Casting   : The process of downsizing a bigger data type into a smaller one is known as narrowing type casting. Casting up or explicit type casting are other names for it. It doesn’t just happen by itself. If we don’t explicitly do that, a compile-time error will occur. 
+		Narrowing type casting is unsafe because data loss might happen due to the lower data type’s smaller range of permitted values.
+
+9) What is boxing and unboxing.?
+Ans: Boxing is the process of converting a value type into it's object type while unboxing is the process of converting a object type into value type ie primitive type.
+
+10) What is the difference between keywords, identifiers and literals in java ?
+Ans: Keywords are the reserved words that have a pre defined meaning for the compiler and hence are restricted to be used as identifiers. Identifiers are the name assigned to different programming constructs like classes, interfaces, methods , variables etc. Literals are the values that are assigned to Identifiers.
